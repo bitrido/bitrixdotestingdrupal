@@ -1,0 +1,135 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+}
+html { height: 101%; } /* always display scrollbars */
+body { font-size: 62.5%; line-height: 1; font-family: Arial, Tahoma, Verdana, sans-serif; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; } 
+
+input { outline: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+
+a { text-decoration: underline; }
+a:hover { text-decoration: underline; }
+
+p { padding: 0px; margin: 0px; }
+
+.work-area { line-height: 1.6em; font-size: 1.3em; border-radius: 7px 7px 7px 7px; background-color: #FAFCF7; color: #585858; }
+
+*::-moz-selection {
+    background: none repeat scroll 0 0 #66B805;
+    color: #FFFFFF;
+}
+
+*::selection  {
+background: #66B805;
+    color: #FFFFFF;
+}
+
+@font-face{ 
+  font-family: 'pt_sans';
+  src: url('fonts/PT_Sans-Web-Regular/PTS55F_W.eot');
+  src: url('fonts/PT_Sans-Web-Regular/PTS55F_W.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PT_Sans-Web-Regular/PTS55F_W.woff') format('woff'),
+    url('fonts/PT_Sans-Web-Regular/PTS55F_W.ttf') format('truetype'),
+    url('fonts/PT_Sans-Web-Regular/PTS55F_W.svg#webfont') format('svg');
+}
+.pt_sans { font-family: 'pt_sans', sans-serif; }
+
+@font-face{ 
+  font-family: 'pt_sans_italic';
+  src: url('fonts/PT_Sans-Web-Regular/PTS56F_W.eot');
+  src: url('fonts/PT_Sans-Web-Regular/PTS56F_W.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PT_Sans-Web-Regular/PTS56F_W.woff') format('woff'),
+    url('fonts/PT_Sans-Web-Regular/PTS56F_W.ttf') format('truetype'),
+    url('fonts/PT_Sans-Web-Regular/PTS56F_W.svg#webfont') format('svg');
+}
+.pt_sans_italic { font-family: 'pt_sans_italic', sans-serif; }
+
+@font-face{ 
+  font-family: 'pt_sans_bold';
+  src: url('fonts/PT_Sans-Web-Regular/PTS75F_W.eot');
+  src: url('fonts/PT_Sans-Web-Regular/PTS75F_W.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PT_Sans-Web-Regular/PTS75F_W.woff') format('woff'),
+    url('fonts/PT_Sans-Web-Regular/PTS75F_W.ttf') format('truetype'),
+    url('fonts/PT_Sans-Web-Regular/PTS75F_W.svg#webfont') format('svg');
+}
+.pt_sans_bold { font-family: 'pt_sans_bold', sans-serif; }
+
+@font-face{ 
+  font-family: 'pt_sans_caption';
+  src: url('fonts/PT_Sans-Web-Regular/PTC55F_W.eot');
+  src: url('fonts/PT_Sans-Web-Regular/PTC55F_W.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PT_Sans-Web-Regular/PTC55F_W.woff') format('woff'),
+    url('fonts/PT_Sans-Web-Regular/PTC55F_W.ttf') format('truetype'),
+    url('fonts/PT_Sans-Web-Regular/PTC55F_W.svg#webfont') format('svg');
+}
+.pt_sans_caption { font-family: 'pt_sans_caption', sans-serif; }
+
+@font-face{ 
+  font-family: 'pt_sans_narrow';
+  src: url('fonts/PT_Sans-Web-Regular/PTN57F_W.eot');
+  src: url('fonts/PT_Sans-Web-Regular/PTN57F_W.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PT_Sans-Web-Regular/PTN57F_W.woff') format('woff'),
+    url('fonts/PT_Sans-Web-Regular/PTN57F_W.ttf') format('truetype'),
+    url('fonts/PT_Sans-Web-Regular/PTN57F_W.svg#webfont') format('svg');
+}
+.pt_sans_narrow { font-family: 'pt_sans_narrow', sans-serif; }
+
+h1 {
+	font-size: 2.2em;
+    line-height: 1.3em;
+	padding: 10px 0 10px 0;
+}
+
+h2 {
+	font-size: 1.8em;
+    line-height: 1.0em;
+	padding: 10px 0 10px 0;
+}
+
+h3 {
+	font-size: 1.6em;
+    line-height: 1.0em;
+	padding: 10px 0 10px 0;
+}
+
+h4 {
+	font-size: 1.5em;
+    line-height: 1.0em;
+	padding: 10px 0 10px 0;
+}
+
+
+@media (max-width: 992px) {
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .visible-desktop {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .hidden-desktop {
+    display: none !important;
+  }
+  .visible-desktop {
+    display: inherit !important;
+  }
+}
+
+
